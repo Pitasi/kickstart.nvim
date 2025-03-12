@@ -12,6 +12,8 @@ return {
   lazy = false,
   keys = {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { '<leader>m', ':Neotree toggle position=float reveal=true<cr>', desc = 'Toggle file [M]enu', silent = true },
+    { '<leader>M', ':Neotree toggle position=left reveal=true<cr>', desc = 'Toggle file [M]enu sidebar', silent = true },
   },
   opts = {
     filesystem = {
