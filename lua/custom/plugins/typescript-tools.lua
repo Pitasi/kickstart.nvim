@@ -7,6 +7,8 @@ return {
   ft = {
     'javascript',
     'typescript',
+    'javascriptreact',
+    'typescriptreact',
     'vue',
   },
   config = function()
@@ -14,6 +16,8 @@ return {
       filetypes = {
         'javascript',
         'typescript',
+        'javascriptreact',
+        'typescriptreact',
         'vue',
       },
       settings = {
