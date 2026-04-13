@@ -828,9 +828,9 @@ require('lazy').setup({
     -- change the command in the config to whatever the name of that colorscheme is.
     --
     -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-    'https://git.sr.ht/~p00f/alabaster.nvim',
+    dir = '/Users/antonio/git/flexokister.nvim',
     priority = 1000, -- Make sure to load this before all the other start plugins.
-    config = function() vim.cmd.colorscheme 'alabaster' end,
+    config = function() vim.cmd.colorscheme 'flexokister' end,
   },
 
   -- Highlight todo, notes, etc in comments
